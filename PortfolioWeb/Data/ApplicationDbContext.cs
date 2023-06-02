@@ -11,5 +11,7 @@ namespace PortfolioWeb.Data
         }
 
         public DbSet<Contact> Contact { get; set; }
+
+        public DbSet<PortfolioModel> Portfolios { get; set; }
     }
 }
